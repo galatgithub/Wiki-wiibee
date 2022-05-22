@@ -12,6 +12,6 @@ WiiBee is a low cost system to remotely measure the weigh evolution of your beeh
 
 ## Schematic diagram
 
-It is composed of several connected scales placed under each hives and a Raspberry Pi that gathers all the measurements and send them to a external storage cloud.
+It is composed of several connected scales placed under each hives and a Raspberry Pi that gathers all the measurements and send them to a external storage cloud. The system is then somewhat scalable depending on the bluetooth connection limits of the Raspberry. The elements (scales and microcontroller unit) are not wired together and are self-sufficient in energy (solar powered and/or battery).
 
 <img src="image5008-9-3-0.png" alt="G Almuneau" width="600" />
