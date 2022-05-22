@@ -2,7 +2,7 @@
 
 ## Overview
 
-WiiBee is a low cost system to remotely measure the weigh evolution of your beehives. It is based on three ideas :
+WiiBee is a low cost system to remotely measure the weigh evolution of your beehives. It is based on basic ideas :
 
 1. Use cheap or used components 
 2. Avoid wiring for better handling of the hives
