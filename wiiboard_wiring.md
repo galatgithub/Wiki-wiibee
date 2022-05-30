@@ -26,6 +26,14 @@ WIRING
 
 - The BT relay and cables can be inserted nearby the battery case by cutting some rigid plastic ribs of the board cap inside the board.
 Place the relay as far as possible from metal parts to avoid disturbance of the BT signal 
+
+<table>
+        <tr>
+            <td><img src="BT_relay1.png" alt="" /></td>
+            <td><img src="BT_relay2.png" alt="" /></td>
+            <td><img src="BT_relay3.png" alt="" /></td>
+        </tr>
+</table>
 INSERT IMAGE
 
 - Test the bluetooth relay with the script init_BT_relay.sh with its MAC address 
