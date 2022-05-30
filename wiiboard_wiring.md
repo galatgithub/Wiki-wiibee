@@ -6,7 +6,7 @@ You need :
 
 It looks like that :
 
-<img src="BT_relay.jpg" alt="G Almuneau" width="300" />
+<img src="BT_relay.jpg" alt="" width="300" />
 
 * 0.5-mm diameter single round wire (as those in phone/ethernet cable)
 * 1-meter USB Type A Female to Stripped Open Wire End Pigtail Cable
@@ -18,7 +18,7 @@ WIRING
 - Unscrew Wii Balance Board Battery Case
 
 - On the backside of the board below the battery case, solder two wires on the pin ends of the sync red button and two wires on the +/- power supply (Batteries terminals)
-<img src="wii_battery_board.png" alt="G Almuneau" width="300" />
+<img src="wii_battery_board.png" alt="" width="300" />
 
 - Connect the sync button wires to the NC/comm of the relay
 - Drill a hole in the Wii balance board backside cover nearby the battery case with the diameter of the USB cable
@@ -29,9 +29,9 @@ Place the relay as far as possible from metal parts to avoid disturbance of the 
 
 <table>
         <tr>
-            <td><img src="BT_relay1.png" alt="" /></td>
-            <td><img src="BT_relay2.png" alt="" /></td>
-            <td><img src="BT_relay3.png" alt="" /></td>
+            <td><img src="BT_relay1.png" alt="" width="200" /></td>
+            <td><img src="BT_relay2.png" alt="" width="200" /></td>
+            <td><img src="BT_relay3.png" alt="" width="200" /></td>
         </tr>
 </table>
 INSERT IMAGE
