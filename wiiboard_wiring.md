@@ -38,3 +38,5 @@ Place the relay as far as possible from metal parts to avoid disturbance of the 
 - Test the bluetooth relay with the script init_BT_relay.sh with its MAC address 
 
 - Reassemble the balance Wii board
+
+[Back to README.md](readme.md)
