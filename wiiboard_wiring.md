@@ -39,4 +39,4 @@ Place the relay as far as possible from metal parts to avoid disturbance of the 
 
 - Reassemble the balance Wii board
 
-[Back to README.md](README.md)
+[Back to README.md](README.md#INSTALL)
