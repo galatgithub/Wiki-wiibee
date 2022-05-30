@@ -3,8 +3,11 @@ Bluetooth relay for Wii Fit Balance Board remote synchronisation
 
 You need :
 * Single-channel bluetooth relay 5V : https://fr.aliexpress.com/item/4000094366617.html?spm=a2g0s.9042311.0.0.24206c372DiuRv
+
 It looks like that :
-INSERT IMAGE
+
+<img src="BT_relay.jpg" alt="G Almuneau" width="300" />
+
 * 0.5-mm diameter single round wire (as those in phone/ethernet cable)
 * 1-meter USB Type A Female to Stripped Open Wire End Pigtail Cable
 
@@ -15,7 +18,8 @@ WIRING
 - Unscrew Wii Balance Board Battery Case
 
 - On the backside of the board below the battery case, solder two wires on the pin ends of the sync red button and two wires on the +/- power supply (Batteries terminals)
-INSERT IMAGE
+<img src="wii_battery_board.png" alt="G Almuneau" width="300" />
+
 - Connect the sync button wires to the NC/comm of the relay
 - Drill a hole in the Wii balance board backside cover nearby the battery case with the diameter of the USB cable
 - Connect the Stripped Open Wire End of the USB cable together with the batteries terminals wires to supply terminals of the BT relay 
