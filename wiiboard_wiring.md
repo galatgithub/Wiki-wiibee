@@ -34,8 +34,7 @@ Place the relay as far as possible from metal parts to avoid disturbance of the 
             <td><img src="BT_relay3.png" alt="" width="200" /></td>
         </tr>
 </table>
-INSERT IMAGE
 
 - Test the bluetooth relay with the script init_BT_relay.sh with its MAC address 
 
-- Assemble the balance Wii board
+- Reassemble the balance Wii board
