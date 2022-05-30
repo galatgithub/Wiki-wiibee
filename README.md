@@ -39,7 +39,7 @@ sudo sh installWittyPi.sh
 
 Then install wiibee (plug an empty USB stick in your Raspberry)
 ```
-cd; wget http://pierriko.com/wiibee/install.sh
+cd; wget https://raw.githubusercontent.com/galatgithub/wiibee/master/install.sh
 sudo sh install.sh
 ```
 
