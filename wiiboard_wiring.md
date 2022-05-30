@@ -2,7 +2,7 @@ Bluetooth relay for Wii Fit Balance Board remote synchronisation
 ================================================================
 
 You need :
-* Single-channel bluetooth relay 5V : https://fr.aliexpress.com/item/4000094366617.html?spm=a2g0s.9042311.0.0.24206c372DiuRv
+* 5V 1-Channel Bluetooth Relay Module : https://fr.aliexpress.com/item/4000094366617.html?spm=a2g0s.9042311.0.0.24206c372DiuRv
 
 It looks like that :
 
