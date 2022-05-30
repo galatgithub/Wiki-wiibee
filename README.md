@@ -29,9 +29,7 @@ It is composed of several connected scales placed under each hives and a Raspber
 
 ## INSTALL
 
-First, hardwire the bluetooth relay into each Wii Fit balance board :
-
-see : [[:File:wiiboard_wiring.md]]
+First, hardwire the bluetooth relay into each Wii Fit balance board : [wiiboard_wiring](wiiboard_wiring.md)
 
 Install WittyPi, see: https://www.uugear.com/product/witty-pi-3-mini-realtime-clock-and-power-management-for-raspberry-pi/
 ```
