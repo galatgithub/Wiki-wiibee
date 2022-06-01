@@ -52,7 +52,7 @@ You can get the Bluetooth MAC addresses using `hcitool scan` or
 `python /mnt/bee1/wiibee/wiiboard.py` after pressing the red sync button.
 
 You can test opening and closing the relay with 
-`sh init_BT_relay.sh`
+`sudo sh init_BT_relay.sh`
 
 For GitHub integration, fork the wiibee repo, add a ssh key, edit the remote in
 `/mnt/bee1/wiibee`, and setup GitHub pages:
