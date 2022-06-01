@@ -23,37 +23,12 @@ One 3.7V / 2600mAh battery is sufficient for the full power autonomy of the Wii 
 Two 3.7V / 2600mAh batteries are necessary for the Raspberry / Witty Pi.
 
 This assembly can easily fit onto the beehive roof :
-<img src="Solar_power.png" alt="" width="300" />
+
+<img src="solar_power.png" alt="" width="300" />
+
+The batteries and solar power manager fit in a waterproof electrical box (115x115x55mm).
 
 TODO : some ways to minimize the power consumption of the Raspberry Pi : https://blues.io/blog/tips-tricks-optimizing-raspberry-pi-power/
-
-WIRING
-------
-
-- Disassemble Wii Balance Board Back Cover : https://www.ifixit.com/Guide/Wii+Balance+Board+Back+Cover+Replacement/30896
-- Unscrew Wii Balance Board Battery Case
-
-- On the backside of the board below the battery case, solder two wires on the soldering spots of the sync red button and two wires on soldering spots of the +/- power supply (Batteries terminals)
-<img src="wii_battery_board.png" alt="" width="300" />
-
-- Connect the sync button wires to the NO/comm of the relay
-- Drill a hole in the Wii balance board backside cover nearby the battery case with the diameter of the USB cable
-- Connect the Stripped Open Wire End of the USB cable together with the batteries terminals wires to supply terminals of the BT relay 
-
-- The BT relay and cables can be inserted nearby the battery case by cutting some rigid plastic ribs of the board cap inside the board.
-Place the relay as far as possible from metal parts to avoid disturbance of the BT signal 
-
-<table>
-        <tr>
-            <td><img src="BT_relay1.png" alt="" width="200" /></td>
-            <td><img src="BT_relay2.png" alt="" width="200" /></td>
-            <td><img src="BT_relay3.png" alt="" width="200" /></td>
-        </tr>
-</table>
-
-- Test the bluetooth relay with the script init_BT_relay.sh with its MAC address 
-
-- Reassemble the balance Wii board
 
 [Back to README.md](README.md#INSTALL)
 
