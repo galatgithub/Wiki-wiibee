@@ -41,7 +41,7 @@ sudo sh install.sh
 
 Then install wiibee (plug an empty USB stick in your Raspberry)
 ```
-cd; wget https://raw.githubusercontent.com/galatgithub/wiibee/master/install.sh
+cd; wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install.sh
 sudo sh install.sh
 ```
 
