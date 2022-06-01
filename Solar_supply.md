@@ -22,6 +22,9 @@ One 3.7V / 2600mAh battery is sufficient for the full power autonomy of the Wii 
 
 Two 3.7V / 2600mAh batteries are necessary for the Raspberry / Witty Pi.
 
+This assembly can easily fit onto the beehive roof :
+<img src="Solar_power.png" alt="" width="300" />
+
 TODO : some ways to minimize the power consumption of the Raspberry Pi : https://blues.io/blog/tips-tricks-optimizing-raspberry-pi-power/
 
 WIRING
