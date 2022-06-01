@@ -23,6 +23,7 @@ case $choice in
   *) echo "This choice is not available. Please choose a different one.";; 
 esac
 wget https://raw.githubusercontent.com/galatgithub/wiibee/master/wiiboard.py
+wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/init_BT_relay.sh
 
 # touch wiibee.js; git add wiibee.js
 # git commit wiibee.js -m"[data] first commit $(date -Is)"
