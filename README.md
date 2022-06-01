@@ -35,8 +35,8 @@ Individual 5V solar power supply units can be used for each Raspberry and Wii Ba
 
 Install WittyPi, see: https://www.uugear.com/product/witty-pi-3-mini-realtime-clock-and-power-management-for-raspberry-pi/
 ```
-cd; wget http://www.uugear.com/repo/WittyPi3/installWittyPi.sh
-sudo sh installWittyPi.sh
+cd; wget http://www.uugear.com/repo/WittyPi3/install.sh
+sudo sh install.sh
 ```
 
 Then install wiibee (plug an empty USB stick in your Raspberry)
