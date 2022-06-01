@@ -1,7 +1,12 @@
 5V solar power supply
 =====================
 
+A Wii Fit balance power consumtion is around 160mW.
 
+|        | Raspberry 3B | Wiiboard+BT relay |
+| ------ | ------------ | ----------------- |
+| in use |    400mA     |       150mA       |
+| sleep  |    ~ 1mA     |        80µA       |
 
 You need :
 * Solar Power Manager 5V : [https://fr.aliexpress.com/item/4000094366617.html?spm=a2g0s.9042311.0.0.24206c372DiuRv](https://www.dfrobot.com/product-1712.html)
