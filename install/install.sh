@@ -17,23 +17,31 @@ echo "How many balance you want to connect"
 echo "1 - One"
 echo "2 - Two to five"
 read choice;
+mkdir wiibee
 case $choice in
-  1) git clone https://github.com/galatgithub/wiibee.git; cd wiibee;;
-  2) git clone https://github.com/galatgithub/wiibee_clone2; mv wiibee_clone2 wiibee; cd wiibee;;
+  1) wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/single-balance/single-balance.tar.xz; tar -xf single-balance.tar.xz -C ./wiibee/; rm single-balance.tar.xz;;
+  2) wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/multi-balance/multi-balance.tar.xz; tar -xf multi-balance.tar.xz -C ./wiibee/; rm multi-balance.tar.xz;;
   *) echo "This choice is not available. Please choose a different one.";; 
 esac
-wget https://raw.githubusercontent.com/galatgithub/wiibee/master/wiiboard.py
-wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/init_BT_relay.sh
+cd wiibee
+wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/wiiboard.py
+wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/init_BT_relay.sh
 
 # touch wiibee.js; git add wiibee.js
 # git commit wiibee.js -m"[data] first commit $(date -Is)"
 # TODO setup a new ssh key between the Raspberry and GitHub
 # https://help.github.com/articles/generating-an-ssh-key/
 # https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
-git remote add ssh git@github.com:galatgithub/wiibee_clone1.git
-cp wittyPi/schedule.wpi /home/pi/wittyPi/schedules/wiibee.wpi
-cp wittyPi/afterStartup.sh /home/pi/wittyPi/
+
+wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/wittyPi/schedule.wpi -P ~/wittyPi/schedules/
+wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install/wittyPi/afterStartup.sh -P ~/wittyPi/
+
 echo "You can now select the wiibee schedule script..."
+/home/pi/wittyPi/wittyPi.sh
+# TODO fix: Bluetooth failed: sudo systemctl status hciuart.service
+# try apt-get install raspberrypi-sys-mods
+# try apt-get install --reinstall pi-bluetooth
+
 /home/pi/wittyPi/wittyPi.sh
 # TODO fix: Bluetooth failed: sudo systemctl status hciuart.service
 # try apt-get install raspberrypi-sys-mods
