@@ -25,15 +25,11 @@ function getColors(num, sat, val) {
     }
     return colors;
 }
+var labels = ["Date", "T°CPU", "T", "Noir", "Rouge", "Mauve", "Bleu-V/J"];
 // must calibrate each balance and setup the offsets accordingly
-//var labels = ["Date", "T°CPU", "T", "Vert-Jaune", "Bleu", "Noir", "Rouge","Mauve"];
-//var offset = [     0,       0,   0, -2.2,  4.6,  3.0,  3.1, 1.1];
+var offset = [     0,       0,   0,   -3.0,     3.1,     1.1,       0.14];
 //  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
-//var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
-var labels = ["Date","T°CPU","T", "Vert-Jaune"];
-var offset = [     0,      0,  0,         -2.2];
-var multi  = [    [],     [], [],           []];
-
+var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
 var ndata  = 0;
 var range  = [15, 45];
 wiibee.forEach(function(elt1, index1, arr1) {
@@ -59,6 +55,9 @@ function gr(index) {
         labels: ["Date", labels[index]],
         colors: [colors[index-1]],
         valueRange: range,
+        <!-- rajout barres de zoom -->
+        <!--showRangeSelector: true,-->
+         
         axes: {
             x: {
                 valueFormatter: function(value) {
@@ -72,6 +71,7 @@ function gr(index) {
                 },
             },
         },
+        
     });
 }
 var gs = [];
