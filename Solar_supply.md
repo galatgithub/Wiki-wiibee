@@ -12,7 +12,7 @@ During a typical sequence : acquisition phase (2min) / standby (58min), the powe
 
 You need :
 * Solar Power Manager 5V : [https://fr.aliexpress.com/item/4000094366617.html?spm=a2g0s.9042311.0.0.24206c372DiuRv](https://www.dfrobot.com/product-1712.html)
-* 4/5W solar pannel (output 4.4V-6V): https://www.cdiscount.com/maison/lampes/panneau-solaire-4w-5v-panneau-solaire-portatif-en/f-11702220701-auc9586491347295.html
+* 4/5W solar panel (output 4.4V-6V): https://www.cdiscount.com/maison/lampes/panneau-solaire-4w-5v-panneau-solaire-portatif-en/f-11702220701-auc9586491347295.html
 * Batteries lithium-ion 18650 3.7V / 2600mAh : [1-meter USB Type A Female to Stripped Open Wire End Pigtail Cable](https://www.pearl.fr/article/ZX1791/4-batteries-lithium-ion-18650-3-7-v-2600-mah)
 * Wired battery holder : https://fr.aliexpress.com/item/1005002777031870.html?spm=a2g0s.9042311.0.0.5c7e6c37MqZxFR
 
