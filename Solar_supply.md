@@ -16,7 +16,7 @@ You need :
 * Batteries lithium-ion 18650 3.7V / 2600mAh : [1-meter USB Type A Female to Stripped Open Wire End Pigtail Cable](https://www.pearl.fr/article/ZX1791/4-batteries-lithium-ion-18650-3-7-v-2600-mah)
 * Wired battery holder : https://fr.aliexpress.com/item/1005002777031870.html?spm=a2g0s.9042311.0.0.5c7e6c37MqZxFR
 
-The solar panel / battery system is configured for 3/4 hours of sunlight per day and 5-days autonomy in case of bad weather.
+The solar panel / battery system is configured for 3 to 4 hours of sunlight per day and 5-days autonomy in case of bad weather.
 
 One 3.7V / 2600mAh battery is sufficient for the full power autonomy of the Wii Balance Board / Bluetooth relay.
 
