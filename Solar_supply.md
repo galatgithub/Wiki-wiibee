@@ -29,7 +29,7 @@ This assembly can easily fit onto the beehive roof :
 <table>
         <tr>
             <td><img src="solar_power.png" alt="" width="300" /></td>
-            <td><img src="solar_power2.png" alt="" width="300" /></td>
+            <td><img src="solar_power2.png" alt="" width="500" /></td>
         </tr>
 </table>
 
