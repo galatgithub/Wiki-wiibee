@@ -39,7 +39,7 @@ cd; wget http://www.uugear.com/repo/WittyPi3/install.sh
 sudo sh install.sh
 ```
 
-Then install wiibee (plug an empty USB stick in your Raspberry)
+Then install wiibee (plug an empty USB (Ext4 formatted) stick in your Raspberry)
 ```
 cd; wget https://raw.githubusercontent.com/galatgithub/Wiki-wiibee/main/install.sh
 sudo sh install.sh
