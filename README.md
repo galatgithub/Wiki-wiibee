@@ -58,3 +58,5 @@ For GitHub integration, fork the wiibee repo, add a ssh key, edit the remote in
 `/mnt/bee1/wiibee`, and setup GitHub pages:
 * https://help.github.com/articles/generating-an-ssh-key/
 * https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+
+## Remote connection
