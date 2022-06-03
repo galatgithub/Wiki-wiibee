@@ -60,3 +60,6 @@ For GitHub integration, fork the wiibee repo, add a ssh key, edit the remote in
 * https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
 ## Remote connection
+2 options :
+* Setup the wifi connexion on your raspberry : https://www.raspberrypi.com/documentation/computers/configuration.html
+* 3/4G USB Dongle : we use Huawei E3531 dongle. Uncomment the correponding lines in autorun.sh. 
