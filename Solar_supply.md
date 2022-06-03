@@ -26,7 +26,12 @@ Two 3.7V / 2600mAh batteries are necessary for the Raspberry / Witty Pi.
 The batteries and solar power manager fit in a waterproof electrical box (115x115x55mm) that can be set under the solar panel.
 This assembly can easily fit onto the beehive roof :
 
-<img src="solar_power.png" alt="" width="300" />
+<table>
+        <tr>
+            <td><img src="solar_power.png" alt="" width="300" /></td>
+            <td><img src="solar_power2.png" alt="" width="300" /></td>
+        </tr>
+</table>
 
 TODO : some ways to minimize the power consumption of the Raspberry Pi : https://blues.io/blog/tips-tricks-optimizing-raspberry-pi-power/
 
