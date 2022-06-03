@@ -21,8 +21,8 @@ WIRING
 <img src="wii_battery_board.png" alt="" width="300" />
 
 - Connect the sync button wires to the NO/comm of the relay
-- Drill a hole in the Wii balance board backside cover nearby the battery case with the diameter of the USB cable
-- Connect the Stripped Open Wire End of the USB cable together with the batteries terminals wires to supply terminals of the BT relay 
+- Drill a hole in the Wii balance board backside cover nearby the battery case with the diameter of the USB cable, and pass the USB cable through this hole from the outside of the cover to the inside
+- Connect the Stripped Open Wire End of the USB cable together with the batteries terminals wires to the power supply terminals of the BT relay 
 
 - The BT relay and cables can be inserted nearby the battery case by cutting some rigid plastic ribs of the board cap inside the board.
 Place the relay as far as possible from metal parts to avoid disturbance of the BT signal 
