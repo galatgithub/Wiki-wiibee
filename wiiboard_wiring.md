@@ -17,7 +17,7 @@ WIRING
 - Disassemble Wii Balance Board Back Cover : https://www.ifixit.com/Guide/Wii+Balance+Board+Back+Cover+Replacement/30896
 - Unscrew Wii Balance Board Battery Case
 
-- On the backside of the board below the battery case, solder two wires on the soldering spots of the sync red button and two wires on soldering spots of the +/- power supply (Batteries terminals)
+- On the backside of the circuit board below the battery case, solder two wires on the soldering spots of the sync red button and two wires on soldering spots of the +/- power supply (Batteries terminals)
 <img src="wii_battery_board.png" alt="" width="300" />
 
 - Connect the sync button wires to the NO/comm of the relay
