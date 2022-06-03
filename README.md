@@ -46,7 +46,7 @@ sudo sh install.sh
 ```
 
 Edit `/mnt/bee1/wiibee/autorun.sh`, add the Bluetooth addresses of each Wii Fit 
-balance board and and the asscociated Bluetooth relay.
+balance board and the asscociated Bluetooth relay.
 
 You can get the Bluetooth MAC addresses using `hcitool scan` or
 `python /mnt/bee1/wiibee/wiiboard.py` after pressing the red sync button.
