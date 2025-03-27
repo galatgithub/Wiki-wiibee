@@ -1,4 +1,4 @@
-# WiiBee : Wireless connection for BeeHive timed weighing
+# WiiBee : Wireless connection for multiple bee hives timed weighting
 
 ## Overview
 
